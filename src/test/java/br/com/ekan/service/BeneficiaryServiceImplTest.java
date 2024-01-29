@@ -22,7 +22,7 @@ public class BeneficiaryServiceImplTest {
         var b = repository.save(createBeneficiary());
 
         Optional<Beneficiary> id = repository.findById(b.getId());
-        Assert.isTrue(id.isPresent(), "beneficiario criado com sucesso");
+        Assert.isTrue(id.isPresent(), "Beneficiary created successfully");
 
     }
 
@@ -31,7 +31,7 @@ public class BeneficiaryServiceImplTest {
     public void findBeneficiaryWithSuccess() {
         var b = repository.save(createBeneficiary());
         Optional<Beneficiary> id = repository.findById(b.getId());
-        Assert.isTrue(id.isPresent(), "beneficiario encontrado");
+        Assert.isTrue(id.isPresent(), "Beneficiary found");
 
     }
 
@@ -40,7 +40,7 @@ public class BeneficiaryServiceImplTest {
         var b = repository.save(createBeneficiary());
         repository.deleteById(b.getId());
         Optional<Beneficiary> id = repository.findById(b.getId());
-        Assert.isTrue(id.isEmpty(), "beneficiario encontrado");
+        Assert.isTrue(id.isEmpty(), "Beneficiary found");
 
     }
 
