@@ -1,2 +1,0 @@
-# HealthPlanRegistry-System
-HealthPlanRegistry System
