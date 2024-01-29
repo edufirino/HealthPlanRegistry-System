@@ -15,6 +15,7 @@
 ### Download the Project from GitHub
 
 URL
+https://github.com/edufirino/HealthPlanRegistry-System
 
 -----------------------------------------------------------------------------------------------------
 
